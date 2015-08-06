@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ImageDisplayActivity">
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:icon="@drawable/ic_action_share"
+        app:showAsAction="always|withText"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        />
+    <item
+        android:id="@+id/action_zoom"
+        android:title="@string/action_zoom"
+        android:icon="@drawable/ic_action_zoom"
+        app:showAsAction="always|withText"
+        />
+
+</menu>

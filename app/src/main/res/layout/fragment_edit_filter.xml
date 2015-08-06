@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.bass.gridimagesearch.activities.EditFilterFragment"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/size_label"
+        android:id="@+id/tvSize"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tvType"
+        android:layout_margin="3dp"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spSize"
+        android:layout_alignTop="@+id/tvSize"
+        android:layout_toRightOf="@+id/tvSize"
+        android:layout_toEndOf="@+id/tvSize"
+        android:layout_alignBottom="@+id/tvSize"
+
+        android:spinnerMode="dropdown"
+        android:dropDownWidth="match_parent"
+        android:layout_above="@+id/tvSize"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/color_label"
+        android:id="@+id/tvColor"
+        android:textSize="20sp"
+        android:layout_below="@+id/tvSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tvType"
+        android:layout_margin="3dp"
+         />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spColor"
+        android:layout_alignTop="@+id/tvColor"
+        android:layout_toRightOf="@+id/tvColor"
+        android:layout_toEndOf="@+id/tvColor"
+        android:layout_alignBottom="@+id/tvColor"
+        android:spinnerMode="dropdown"
+        android:dropDownWidth="match_parent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_label"
+        android:id="@+id/tvType"
+        android:textSize="20sp"
+        android:layout_below="@+id/tvColor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="3dp"
+         />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spType"
+        android:spinnerMode="dropdown"
+        android:layout_alignTop="@+id/tvType"
+        android:layout_toRightOf="@+id/tvType"
+        android:layout_toEndOf="@+id/tvType"
+        android:layout_alignBottom="@+id/tvType"
+        android:dropDownWidth="match_parent"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/site_label"
+        android:id="@+id/tvSite"
+        android:textSize="20sp"
+        android:layout_below="@+id/tvType"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tvType"
+        android:layout_margin="5dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSite"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tvSite"
+        android:layout_toRightOf="@+id/tvSite"
+        android:layout_toEndOf="@+id/tvSite"
+        android:textSize="20sp"
+        android:inputType="textUri"
+        android:singleLine="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_button"
+        android:id="@+id/btSave"
+        android:layout_below="@+id/etSite"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

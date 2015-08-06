@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Grid Image Search</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_share">Share</string>
+    <string name="action_zoom">Zoom Mode</string>
+    <string name="action_center_inside">Auto Scale Mode</string>
+    <string name="search_prompt">Enter search query</string>
+    <string name="search_label">Search</string>
+
+    <string name="title_activity_image_display">Image Display</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="size_label">Image Size</string>
+    <string name="color_label">Color Filter</string>
+    <string name="type_label">Image Type</string>
+    <string name="site_label">Site Filter</string>
+    <string name="filter_title">Advanced Search Filter</string>
+    <string name="save_button">Save</string>
+
+
+</resources>
